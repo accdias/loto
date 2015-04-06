@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 #
-# Verifica se você teve sorte e ganhou na loteria
+# Verify bids on Brazilian lottery polls
 #
-# Forma de uso:
-# ./check_my_luck.py <nome_da_loteria>
+# Usage:
 #
-# Loterias suportadas:
+# ./loto.py <nome_da_loteria>
+#
+# Supported lotteries:
 #
 # - lotofacil
 # - lotomania
 # - megasena
-
 import sys, getopt
 
 def usage():
