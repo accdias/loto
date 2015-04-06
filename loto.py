@@ -15,7 +15,8 @@
 import sys, getopt
 
 def usage():
-   print('Uso: %s <nome_loteria>') % sys.argv[0]
+   print('Usage:')
+   print('%s <--lottery>') % sys.argv[0]
    sys.exit(2)
 
 def main(argv):
